@@ -17,6 +17,13 @@
 .main-nav {
   position: relative;
 }
+.main-nav li a:hover {
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+.main-nav ul li:nth-child(3) a {
+  color: var(--primary-color);
+}
 
 .burger {
   display: none;
