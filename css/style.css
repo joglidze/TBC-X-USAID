@@ -1,0 +1,17 @@
+@import "./abstracts/_variables.css";
+
+@import "./base/_base.css";
+
+@import "./components/_button.css";
+@import "./components/_dots.css";
+@import "./components/_section-about.css";
+@import "./components/_section-course.css";
+@import "./components/_section-hero.css";
+@import "./components/_section-project-partners.css";
+@import "./components/_accordion.css";
+
+@import "./layout/_reusable.css";
+@import "./layout/_header.css";
+@import "./layout/_footer.css";
+
+@import "./media-queries/media-queries.css";

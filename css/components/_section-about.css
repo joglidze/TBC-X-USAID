@@ -1,0 +1,14 @@
+
+.section-about {
+  background-color: var(--secondary-background-color);
+  line-height: 1.5;
+  padding: 50px;
+}
+
+.section-about p {
+  font-size: 2.8rem;
+}
+.section-about a {
+  color: var(--primary-color);
+  font-size: 2rem;
+}

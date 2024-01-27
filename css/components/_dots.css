@@ -1,0 +1,18 @@
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -200%);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: var(--white-color);
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+
+  cursor: pointer;
+}

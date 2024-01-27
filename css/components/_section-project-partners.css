@@ -1,0 +1,52 @@
+.section-project-partners h2 {
+  margin-bottom: 6.7rem;
+  padding-top: 3.4rem;
+  font-size: 2.4rem;
+}
+
+.slide img {
+  width: 80%;
+}
+
+.section-project-partners {
+  background-color: var(--secondary-background-color);
+}
+
+.slide {
+  position: absolute;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 3s ease;
+}
+
+.slide:nth-child(3) {
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.slide.displaySlide {
+  opacity: 1;
+  transition: opacity 3s ease;
+  visibility: visible;
+}
+
+.section-project-partners {
+  position: relative;
+  gap: 140px;
+  height: 35rem;
+}
+
+.btn--left {
+  left: 10%;
+  transform: translate(-100%, -50%);
+}
+
+.btn--right {
+  right: 5%;
+  transform: translate(100%, -50%);
+}
+
+.active {
+  background-color: #605f5f;
+}
