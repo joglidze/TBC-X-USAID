@@ -13,3 +13,4 @@ javascript - ერთი javascript ფაილი სადაც გან�
 ოპტიმიზაციისათვის გამოვიყენე chrome-ში ჩაშენებული lighthouse რომელმაც საკმაოდ კარგი შედეგეი აჩვენა. 
 desktop test - Performance:100%, Accessibility: 95%, Best Practices: 100%, SEO :100%.
 mobile test : Performance:95%, Accessibility: 92%, Best Practices: 100%, SEO :95%.
+ასევე HTML გავატარე და გავწმინე W3C Markup Validation-ით.
